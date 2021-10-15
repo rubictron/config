@@ -1,0 +1,5 @@
+alias c="clear"
+alias la="ls -la"
+alias ebrc="vim ~/.bashrc.rubictron"
+alias ebal="vim ~/.bash_aliases"
+alias sbrc="source ~/.bashrc.rubictron"
