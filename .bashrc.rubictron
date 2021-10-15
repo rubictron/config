@@ -5,8 +5,11 @@
 #----------------------------------------}}}
 
 #to source bash_aliases file-------------{{{
-if [ -f ~/.bash_aliases ];then
-    source ~/.bash_aliases
+if [ -f ~/.bashrc.aliases ];then
+    source ~/.bashrc.aliases
+fi
+if [ -f ~/.bashrc.env ];then
+    source ~/.bashrc.env
 fi
 #----------------------------------------}}}
 red="\033[1;31m"
