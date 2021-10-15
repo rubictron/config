@@ -1,5 +1,7 @@
 alias c="clear"
 alias la="ls -la"
 alias ebrc="vim ~/.bashrc.rubictron"
-alias ebal="vim ~/.bash_aliases"
+alias ebal="vim ~/.bashrc.aliases"
+alias ebev="vim ~/.bashrc.env"
 alias sbrc="source ~/.bashrc.rubictron"
+alias gitl="git log --all --oneline --graph"
