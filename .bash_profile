@@ -1,16 +1,19 @@
 #add to ~/.bashrc ----------------------{{{
-#if [ -f ~/.bashrc.rubictron ];then
-#    source ~/.bashrc.rubictron
+#if [ -f ~/.bash_profile ];then
+#    source ~/.bash_profile
 #fi
 #----------------------------------------}}}
 
 #to source bash_aliases file-------------{{{
-if [ -f ~/.bashrc.aliases ];then
-    source ~/.bashrc.aliases
+if [ -f ~/.bash_aliases ];then
+    source ~/.bash_aliases
 fi
-if [ -f ~/.bashrc.env ];then
-    source ~/.bashrc.env
+if [ -f ~/.bash_env ];then
+    source ~/.bash_env
 fi
+#----------------------------------------}}}
+
+
 #----------------------------------------}}}
 red="\033[1;31m"
 green="\033[0;32m"
@@ -23,8 +26,6 @@ end="\033[0m" # This is needed at the end...
 
 PS1="${cyan}[${blue}\u@\h${green} : ${yellow}\w${cyan}][${white}$?${cyan}]\n${white}\$${end}"
 
-
-
-
+#----------------------------------------}}}
 
 
