@@ -67,7 +67,7 @@ set incsearch                   " show search matches as you type
 set relativenumber              " show line numbers relative to current line"
 
 
-"set noswapfile                 "Disable swap file
+set noswapfile                 "Disable swap file
 
 
 "autocmd bufnewfile *.py r ~/.vim/header/python.header  
