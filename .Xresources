@@ -1,0 +1,22 @@
+! run "xrdb ~/.Xresources" to Reloading the resources
+
+xterm*dynamiccolors:      true
+xterm*utf8:               2
+xterm*visualBell:         off
+xterm*geometry:           127x37
+xterm*highlightSelection: true
+xterm*background:      black
+xterm*foreground:      green
+
+! Use a truetype font and size.
+xterm*faceName: Monospace
+xterm*faceSize: 10
+
+! map copy paste shortcuts 
+*VT100*translations:      #override \n\
+    Shift <Key>Home:    copy-selection(SELECT) \n\
+    Shift <Key>Insert:  copy-selection(SELECT) \n\
+    Ctrl Shift <Key>C:  copy-selection(SELECT) \n\
+    Ctrl Shift <Key>V:  insert-selection(SELECT)
+    
+    
