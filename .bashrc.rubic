@@ -28,4 +28,14 @@ PS1="${cyan}[${blue}\u@\h${green} : ${yellow}\w${cyan}][${white}$?${cyan}]\n${wh
 
 #----------------------------------------}}}
 
+#Terminal Configs -----------------------{{{
+
+# To set Ctrl+Backspace to backspace single charactor
+stty werase "^W" erase "^?" kill "^U" intr "^C" eof "^D" susp "^Z"
+
+# To use direxpand with variable
+shopt -s direxpand
+
+#----------------------------------------}}}
+
 
